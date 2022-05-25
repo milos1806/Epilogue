@@ -22,6 +22,15 @@ basic styles
     box-sizing: border-box;
   }
 
+  body {
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    background: var(--bg);
+    color: var(--text);
+    font-weight: 200;
+    line-height: 1.6;
+}
+
 
 
 /***********
@@ -42,7 +51,7 @@ header {
 header h1 {
     font-family: var(--logo);
     font-size: 6rem;
-    color: var(--white);
+        color: var(--white);
     
 }
 
