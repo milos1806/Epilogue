@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+:root {
+    --fontFamily: 'Source Sans Pro', sans-serif;
+    --logo: 'Pacifico', cursive;
+    --fontSize: 18px;
+    --white: #fff;
+    --bg: #f4f4f4;
+    --padding: 100px 0;
+    --headings: #444444;
+    --text: #676767;
+    --red: #EF6480;
+    --transition: .3s ease;
+}
+
+
+/**********
+basic styles
+***********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+/***********
+header
+***********/
+header {
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(images/banner.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1 {
+    font-family: var(--logo);
+    font-size: 6rem;
+    color: var(--white);
+    
+}
+
+.underline {background: var(--white);
+    height: 2px;
+    width: 35%;
+    margin: 10px auto 50px auto;
+
+}
+header p {
+    font-size: 1,2rem;
+    text-transform: uppercase;
+    color: var(--white);
+    opacity: .7;
+    letter-spacing: 4px;
+}
+
+/**************
+intro
+**************/
+.intro {
+    background: var(--white);
+    padding: var(--padding);
+    margin: 100px auto;
+    text-align: center;
+}
+.intro i {
+    border: 2px solid var(--text);
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    padding: 50px;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    margin: auto;
+}
+.intro p {
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+}
+/*************
+blog
+*************/
